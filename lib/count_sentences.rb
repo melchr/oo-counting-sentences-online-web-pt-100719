@@ -2,16 +2,16 @@ require 'pry'
 
 class String
 
-  def sentence?(string)
-    if string.end_with?(".")
+  def sentence?
+    if self.end_with?(".")
       return true
     else
       return false
     end
   end
 
-  def question?(string)
-    if self.string.ends_with?("?")
+  def question?
+    if self.ends_with?("?")
       return true
     else
       return false
