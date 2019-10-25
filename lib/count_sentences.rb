@@ -10,8 +10,12 @@ class String
     end
   end
 
-  def question?
-
+  def question?(string)
+    if self.string.ends_with?("?")
+      return true
+    else
+      return false
+    end
   end
 
   def exclamation?
